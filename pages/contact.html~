@@ -1,0 +1,48 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Atul Mirajkar</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body class="body">
+    <div class="imageDiv" id="imageId">
+      <div class="header" id="header">
+      <header class="mainHeader">
+
+	<nav><ul>
+	    <li><a class="activeLink" href="#">About Me</a></li>
+	    <li><a href="#">Projects</a></li>
+	    <li><a href="#">Research</a></li>
+	    <li><a href="#">Resume</a></li>
+	    <li><a href="#">Contact</a></li>
+	  </ul>
+
+	</nav>
+      </header>
+       <div  id="social">
+	<a href="#"><img src="../images/facebook-icon.png" alt = "My Pic"></a>
+	<a href="#"><img src="../images/Linked-In-icon.png" alt = "My Pic"></a>
+	
+      </div>
+
+      </div>
+
+      
+      <aside class="bio" id="bio"> 
+	<img src="../images/dp.jpg" alt = "My Pic">
+	<p>Atul .V. Mirajkar</br>
+	  BE Computer Science</br>
+	  MS Computer Science</br>
+	</p>
+      </aside>
+     
+    </div>
+
+
+    <footer class="mainFooter">
+      <p>Copyright @ 2014 <a href="#">Atul Mirajkar</a></p>
+    </footer>
+  </body>
+</html>
