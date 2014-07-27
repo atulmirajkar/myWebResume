@@ -1,0 +1,8 @@
+#html{
+#    background: url(../images/bg3.jpg);
+#    background-repeat: no-repeat;
+#}
+body{
+    background: url(../images/bg4.jpg);
+    color: #0000305;
+}

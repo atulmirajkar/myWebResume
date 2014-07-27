@@ -1,0 +1,269 @@
+body{
+     background-image: url('../images/bg4.png');
+    color : #000305;
+    font-size: 100%;
+   /* font-family: Arial,"Lucida Sans Unicode";*/
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link,a:visited{
+    color:#6B888F;
+    
+}
+
+a:hover, a:active{
+    background-color: #6B888F;
+     color : #DCDFE0;
+}
+.body{
+   
+    margin: 0% 15% 0% 15%;
+    width:70%;
+    clear: both;
+}
+
+#imageId{
+    background-image: url('../images/badge-pattern-dark.png');
+    background-repeat: repeat;
+    background-position: top center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    /*background-size: cover;*/
+    background-attachment: fixed;
+    width: 100%;
+    height: 270px;
+    margin: 1% 0% 1% 0%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+
+}
+
+.imageDiv .header{
+
+    margin: 1% 1% 1% 1%;
+    float: left;
+    width: 65%;
+    text-align: center;
+    display: inline;
+    color : #DCDFE0;
+    height: 90%;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+/*
+.imageDiv .social{
+
+    margin: 1% 1% 1% 1%;
+    float: left;
+    width: 71%;
+
+    display: inline;
+    color : #DCDFE0;
+    height: 90%;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+*/
+
+.imageDiv .bio{
+    margin: 1% 1% 1% 1%;
+    float: right;
+    /*text-align: center;*/
+    display: inline;
+    color : #DCDFE0;
+    height: 90%;
+    width: 24%;
+   
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+.mainHeader nav{
+
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul{
+    
+    list-styles: none;
+    margin:0 auto;
+    
+}
+
+.mainHeader nav ul li{
+    margin: 5% auto;
+    float: left;
+    display: inline;
+   
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color: #DCDFE0;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px; 
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,.mainHeader nav a.activeLink,.mainHeader nav a.focus{
+
+    background-color: #C97808;
+    text-shadow:none;
+}
+
+.mainHeader nav ul li a{
+
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainContent{
+    font-size: 90%;
+    line-height:25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+
+.content{
+    width: 72%;
+    float: left;
+}
+
+.mainContent {
+
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.actContent{
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 4%;
+    margin:0% 0% 1% 0%;
+}
+
+
+.sidebar{
+    font-size: 90%;
+    width: 21%;
+    background-color:#FFFFFF;
+    float: left;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+     margin:0% 0% 1% 1%;
+     padding:2% 3%;
+}
+
+.mainFooter{
+    color: #DCDFE0;
+    width: 100%;
+    float:left;
+    background-color: #666;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top:1% 0;
+   #padding:2% 3%;
+}
+.postInfo{
+   font-style:italic;
+    color:#999;
+   font-size:87%
+}
+.mainFooter p{
+    width: 92%;
+    margin:1% auto;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 1000px)
+{
+    .body{  
+	width:90%;
+	font-size:95%;
+	margin: 0% 5% 0% 5%;
+    }
+   
+     
+    #imageId{
+	width: 100%;
+	height: 160px;
+    }
+    
+   .imageDiv .header{
+       width: 100%;
+    
+   }
+   .imageDiv .bio{
+       width: 0%;
+       display: none;
+   }
+    
+   
+     .mainHeader nav ul{
+
+	padding-left:0;
+	
+     }
+
+     .mainHeader nav ul li{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	display: block;
+     }
+
+     .mainHeader nav a:link, .mainHeader nav a:visited{
+	 padding: 10px 25px;
+	 height: 20px; 
+     }
+     
+     .content{
+	 width: 100%;
+	 float: left;
+     }
+
+     .actContent{
+	 margin:0.5% 0% 1% 0%;
+     }
+
+     .postInfo{
+	 display:none;
+     }
+     
+     .sidebar{
+	width: 94%;
+	 margin:0.5% 0% 1% 0%;
+	  padding:2% 3%;
+     }
+     .mainFooter{
+	width: 100%;
+	margin-top:1% 0;
+
+    }
+    
+
+}
+
+

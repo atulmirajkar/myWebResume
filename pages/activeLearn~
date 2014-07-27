@@ -1,0 +1,3 @@
+Active learning is a special case of semi supervised learning.
+Unlabeled data is abundant but manual labeling is expensive.
+Learning algorithm can query user for labels.

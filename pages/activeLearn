@@ -1,0 +1,25 @@
+Active learning is a special case of semi supervised learning.
+Unlabeled data is abundant but manual labeling is expensive.
+Learning algorithm can query user for labels.
+Iterative supervised learning is called active learning.
+This type of iterative supervised learning is called active learning.
+
+Query scenario:
+stream based or sequential active learning 
+
+Query Strategy Frameworks:
+Uncertainity Sampling
+Query by committee:
+Expected Model Change
+Expected error reduction
+Expeced Variance reduction
+
+
+what to discuss??
+Active learning attempts to overcome the labelling bottleneck by asking queries in the form of unlabelled instances to be labelled by an oracle. The active learner aims to achieve high accuracy using a few labelled instances as possibile, thereby minimizing the cost of obtaining labelled data.
+
+Some instances may not be queried by the active learner. Are such instances that are classifed by the acive learner itself used for training the model again.
+
+Batch mode active learning: a bunch of instances queried in parallel
+
+ 
