@@ -26,7 +26,6 @@
 	      <li><a href="research.html">Research</a></li>
 	      <li><a href="resume.html">Resume</a></li>
 	      <li><a href="contact.html">Contact</a></li>
-	  
 	  </ul>
 
 	</nav>
@@ -51,17 +50,8 @@
     </div>
 
 
-<div class="mainContent">
-     
-</div>
-
-<footer class="mainFooter">
-  <p>Copyright @ 2014 <a href="#">Atul Mirajkar</a></p>
-
-</footer>
-
-
-
+    <footer class="mainFooter">
+      <p>Copyright @ 2014 <a href="#">Atul Mirajkar</a></p>
+    </footer>
   </body>
-
 </html>

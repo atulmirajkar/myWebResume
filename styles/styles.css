@@ -1,15 +1,25 @@
+html{
+    height: 100%;
+}
+
 body{
-     background-image: url('../images/bg4.png');
+    background-image: url('../images/bg4.png');
     color : #000305;
     font-size: 100%;
-   /* font-family: Arial,"Lucida Sans Unicode";*/
+    /* font-family: Arial,"Lucida Sans Unicode";*/
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     text-align: left;
+    height: 100%;   
+    margin: 0% 15% 0% 15%;
+    width:70%;
+    clear: both;
+    padding:0%;
 }
 
 a{
     text-decoration: none;
+
 }
 
 a:link,a:visited{
@@ -18,99 +28,87 @@ a:link,a:visited{
 }
 
 a:hover, a:active{
-    background-color: #6B888F;
-     color : #DCDFE0;
+    background-color: #C97808;
+    color : #DCDFE0;
 }
-.body{
-   
-    margin: 0% 15% 0% 15%;
-    width:70%;
-    clear: both;
-}
+
 
 #imageId{
-    background-image: url('../images/badge-pattern-dark.png');
+    background-image: url('../images/hallix.jpg');
     background-repeat: repeat;
     background-position: top center;
+    background-size: contain;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     /*background-size: cover;*/
     background-attachment: fixed;
     width: 100%;
-    height: 270px;
+    //height: 270px;
     margin: 1% 0% 1% 0%;
     border-radius: 10px;
 
-    //overflow: hidden;
+    overflow: hidden;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     
 
 }
 
-#imageIdRest{
-    background-image: url('../images/badge-pattern-dark.png');
-    background-repeat: repeat;
-    background-position: top center;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    /*background-size: cover;*/
-    background-attachment: fixed;
-    width: 100%;
-    height: 100px;
-    margin: 1% 0% 1% 0%;
-    border-radius: 10px;
-
-    //overflow: hidden;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    
-
-}
 
 .imageDiv .header{
-
     margin: 1% 1% 1% 1%;
     float: left;
     width: 65%;
     text-align: center;
     display: inline;
     color : #DCDFE0;
-    height: 90%;
+    //height: 90%;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 
 }
 
 .imageDiv .header .mainHeader{
-     height: 80%;
+    //height: 80%;
+
+    
+     width:100%;
 }
 
 
 #social{
-    height: 20%;    
-    margin: 0% 3% 1% 10%;
+    //height: 20%;
+    width : 100%;
+    //background-color: #ffffff;    
+    margin: 23% 3% 1% 5%;
     float: left;
+}
+
+
+
+#social .imageLinks{
+    float: left;
+    margin: 0% 1%;
 }
 
 .imageDiv .bio{
     margin: 1% 1% 1% 1%;
     float: right;
-    /*text-align: center;*/
+    text-align: center;
     display: inline;
     color : #DCDFE0;
-    height: 90%;
+    //height: 90%;
     width: 24%;
-   
+
+
+    
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     
 }
 .mainHeader nav{
-   
-     border-radius: 5px;
+    border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
@@ -124,10 +122,10 @@ a:hover, a:active{
 
 .mainHeader nav ul li{
     
-    margin: 5% auto;
+    margin: 2% auto;
     float: left;
     display: inline;
-   
+    
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited{
@@ -150,27 +148,39 @@ a:hover, a:active{
     -webkit-border-radius: 5px;
 }
 
-.mainContent{
+
+.mainContent {
     font-size: 90%;
     line-height:25px;
     border-radius: 5px;
+    
+
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -25px; 
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    
+
 }
 
-.content{
-    width: 72%;
-    float: left;
+.mainContent:after {
+    content: "";
+    display: block;
 }
 
-.mainContent {
-
-	line-height: 25px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+.mainFooter, .mainContent:after {
+    /* .push must be the same height as footer */
+    height: 25px; 
 }
+
+/*Just remove comment for sidebar*/
+/*
+  .content{
+  width: 72%;
+  float: left;
+  }
+  */
+
 .actContent{
     background-color:#FFFFFF;
     border-radius: 5px;
@@ -186,32 +196,43 @@ a:hover, a:active{
     width: 21%;
     background-color:#FFFFFF;
     float: left;
-     border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-     margin:0% 0% 1% 1%;
-     padding:2% 3%;
-}
-
-.mainFooter{
-    color: #DCDFE0;
-    width: 100%;
-    float:left;
-    background-color: #666;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    margin-top:1% 0;
-   #padding:2% 3%;
+    margin:0% 0% 1% 1%;
+    padding:2% 3%;
 }
+
+
+.mainFooter {
+    background-image: url('../images/hallix.jpg');
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: contain;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    
+    background-attachment: fixed;
+    color: #DCDFE0;
+    width: 100%;
+    float:left;
+    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
 .postInfo{
-   font-style:italic;
+    font-style:italic;
     color:#999;
-   font-size:87%
+    font-size:87%
 }
 .mainFooter p{
+
     width: 92%;
-    margin:1% auto;
+    margin:0.1% auto;
 }
 
 
@@ -222,66 +243,65 @@ a:hover, a:active{
 	font-size:95%;
 	margin: 0% 5% 0% 5%;
     }
-   
-     
+    
+    
     #imageId{
 	width: 100%;
 	height: 160px;
     }
     
-   .imageDiv .header{
-       width: 100%;
+    .imageDiv .header{
+	width: 100%;
+	
+    }
+    .imageDiv .bio{
+	width: 0%;
+	display: none;
+    }
     
-   }
-   .imageDiv .bio{
-       width: 0%;
-       display: none;
-   }
     
-   
-     .mainHeader nav ul{
+    .mainHeader nav ul{
 
 	padding-left:0;
 	
-     }
+    }
 
-     .mainHeader nav ul li{
+    .mainHeader nav ul li{
 	width:100%;
 	margin:0 auto;
 	text-align:center;
 	display: block;
-     }
+    }
 
-     .mainHeader nav a:link, .mainHeader nav a:visited{
-	 padding: 10px 25px;
-	 height: 20px; 
-     }
-     
-     .content{
-	 width: 100%;
-	 float: left;
-     }
-
-     .actContent{
-	 margin:0.5% 0% 1% 0%;
-     }
-
-     .postInfo{
-	 display:none;
-     }
-     
-     .sidebar{
-	width: 94%;
-	 margin:0.5% 0% 1% 0%;
-	  padding:2% 3%;
-     }
-     .mainFooter{
+    .mainHeader nav a:link, .mainHeader nav a:visited{
+	padding: 10px 25px;
+	height: 20px; 
+    }
+    
+    .content{
 	width: 100%;
-	margin-top:1% 0;
+	float: left;
+    }
+
+    .actContent{
+	margin:0.5% 0% 1% 0%;
+    }
+
+    .postInfo{
+	display:none;
+    }
+    
+    .sidebar{
+	width: 94%;
+	margin:0.5% 0% 1% 0%;
+	padding:2% 3%;
+    }
+    .mainFooter{
+	width: 100%;
+	margin-top:1%;
 
     }
     
 
 }
-
 
