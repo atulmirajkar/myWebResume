@@ -11,8 +11,8 @@ body{
     line-height: 1.5;
     text-align: left;
     height: 100%;   
-    margin: 0% 15% 0% 15%;
-    width:70%;
+    margin: 0% 18% 0% 18%;
+    width:64%;
     clear: both;
     padding:0%;
 }
@@ -59,7 +59,7 @@ a:hover, a:active{
 .imageDiv .header{
     margin: 1% 1% 1% 1%;
     float: left;
-    width: 65%;
+    width: 70%;
     text-align: center;
     display: inline;
     color : #DCDFE0;
