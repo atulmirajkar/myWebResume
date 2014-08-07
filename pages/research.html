@@ -20,43 +20,147 @@
       <div class="header" id="header">
 	<header class="mainHeader">
 
-	<nav><ul>
-	    <li><a class="activeLink" href="index.html">About</a></li>
+	  <nav><ul>
+	      <li><a class="activeLink" href="index.html">About</a></li>
 	      <li><a href="projects.html">Projects</a></li>
 	      <li><a href="research.html">Research</a></li>
 	      <li><a href="resume.html">Resume</a></li>
 	      <li><a href="contact.html">Contact</a></li>
-	  </ul>
+	    </ul>
 
-	</nav>
-      </header>
-       <div  id="social">
-	<a href="#"><img src="../images/facebook-icon.png" alt = "My Pic"></a>
-	<a href="#"><img src="../images/Linked-In-icon.png" alt = "My Pic"></a>
-	
-      </div>
+	  </nav>
+	</header>
+	<div  id="social">
+	  <a href="#"><img src="../images/facebook-icon.png" alt = "My Pic"></a>
+	  <a href="#"><img src="../images/Linked-In-icon.png" alt = "My Pic"></a>
+	  
+	</div>
 
       </div>
 
       
       <aside class="bio" id="bio"> 
 	<img src="../images/dp.jpg" alt = "My Pic">
-	<p>Atul .V. Mirajkar</br>
-	  BE Computer Science</br>
-	  MS Computer Science</br>
+	<p>Atul .V. Mirajkar<br>
+	  BE Computer Science<br>
+	  MS Computer Science<br>
 	</p>
       </aside>
-     
+      
     </div>
 
     <div class="mainContent">
-     
-</div>
+      <div class="content">
+	<article class="actContent">
+	  <header>
+	    <h2>CrowdSourced Interactive Reinforcement Learning</h2>
+	  </header>
+	  <div class="postInfo">
+	    Masters Thesis
+	  </div>
+	  <content>
+	    <p>
+	      Learning from demonstration
+	      is a growing area of artificial intelligence research that explores
+	      techniques for programming autonomous agents (robots) by demonstrating the desired behavior or
+	      task. In demonstration-based approaches, a teacher, typically a human, shows the agent
+	      how to perform the task. The agent records the demonstrations as sequences of state-
+	      action pairs, from which it then learns a policy that reproduces the observed behavior.
+	    </p>
+	    <p>
+	      Confidence Based Autonomy: A mapping approximation technique based on a classification algorithm. The human teacher (oracle) interacts with the robot by selecting the next action or correcting a past action choice
+	      through an on-screen interface. Confidence Based Autonomy is an active learning method that is based on
+	      asking for help from a human teacher when needed.
+	      
+	    </p>
+	    <p>
+	      In most cases making a query to human asking for a classification task is costly in terms of time. My approach towards Confidence Based Autonomy is to use Reinforcement Learning to learn a policy that makes optimal human queries depending on the state of the supervised classifier.  
+	    </p>
+	    
+	    
+	  </content>
+      </div>
+      	<article class="actContent">
+	  <header>
+	    <h2>Predicting Bad Edits to Wikipedia Pages</h2>
+	  </header>
+	  <div class="postInfo">
+	    Masters Project
+	  </div>
+	  <content>
+	    <p>
+	      Whole Content <a href="../data/Predicting Bad Edits to Wiki.pdf">here</a>.
+	    </p>
+	    <p>
+	      According to the PAN 2010 Wikipedia Vandalism Detection training corpus , about 7%
+	      of all revisions were vandalized. This is a significant problem for Wikipedia, because the
+	      readers can never be sure of the quality of
+	      available information, unless they verify it
+	      from other sources. The problem
+	      is to identify whether a particular edit made
+	      to a wikipedia page is legitmiate and not an
+	      attempt to compromise the integrity of the
+	      page.
+	    </p>
+	    <p>
+	      A wiki article from its birth undergoes a series of revision
+	      edits and is called as article history. A single revision
+	      is a state of the article at a given time in its history
+	      and is composed of the textual content, markup and
+	      metadata describing the transition from the previous
+	      history. A revision metadata contains the user who
+	      performed the edit, a comment explaining why the
+	      edit was made and describing the changes made to
+	      the article. A revision edit can be considered as a
+	      tuple containing the previous edit, the new edit and
+	      its corresponding metadata. The goal of the classifier
+	      is to output whether a particular edit made is good (no vandalism) or bad(vandalism).
+	    </p>
+	    <p>
+	      The proposed method is to preprocess both (previous
+	      and new) revision edits pertaing to a single edit to
+	      remove the extra wiki markup and get pure text. Get
+	      the difference in the pure texts and compute metadata,
+	      text and language features which are then fed to the
+	      classifier.
+	    </p>
+            
 
-<footer class="mainFooter">
-  <p>Copyright © 2014 <a href="#">Atul Mirajkar</a></p>
+	    
+	  </content>
+	  
+	</article>
 
-</footer>
+      <article class="actContent">
+	<header>
+	  <h2>Encryption and Watermarking of Relational Data on Networking Sites</h2>
+	</header>
+	<div class="postInfo">
+	  UnderGrad Final Year Project
+	</div>
+	<content>
+	  <p>
+	    Whole Paper <a href="http://www.docstoc.com/docs/79287418/Watermarking-Social-Networking-Relational-Data-using-Non-numeric-Attribute">here</a>.
+	  </p>
+
+	  <p>
+
+	    On-line social networking has become a very popular now a days. The <a href="http://www.docstoc.com/docs/79287418/Watermarking-Social-Networking-Relational-Data-using-Non-numeric-Attribute">paper</a> studies the copyright issue of on-line social networking data in relational database. Techniques and concepts of mining for social network is discussed which gives rise to the need of watermarking its data. Proving ownership rights on such data is a crucial issue in social network which to some extent contribute to privacy preserving issue also. Watermark key is generated on vowel and consonant count and accordingly the profile image is scaled.
+	  </p>
+
+          
+
+	  
+	</content>
+	
+      </article>
+      
+    </div>
+
+    <footer class="mainFooter">
+      <p>Copyright © 2014 <a href="#">Atul Mirajkar</a></p>
+
+    </footer>
 
 
 
